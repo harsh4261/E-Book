@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "649153290942",
+    "project_id": "e-bookapp-cource",
+    "storage_bucket": "e-bookapp-cource.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:649153290942:android:354a813a53c115b0f7f4ef",
+        "android_client_info": {
+          "package_name": "com.example.e_book"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWoF5Oid_JbV3__XnJYMSXLlpKrYzKJaE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
