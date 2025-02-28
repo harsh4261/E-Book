@@ -99,6 +99,7 @@ fun CategoryScreen(
                         Text(
                             text = category.Name,
                             style = TextStyle(
+                                color = Color.Black,
                                 fontSize = 20.sp,
                                 fontWeight = FontWeight.Bold
                             )
