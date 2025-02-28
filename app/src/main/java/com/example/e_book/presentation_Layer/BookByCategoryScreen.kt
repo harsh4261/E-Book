@@ -186,7 +186,7 @@ fun BookByCategoryScreen(
                                     text = item.bookName,
                                     style = TextStyle(
                                         color = Color.Black,
-                                        fontSize = 18.sp,
+                                        fontSize = 17.sp,
                                         fontWeight = FontWeight.Bold
                                     )
                                 )
