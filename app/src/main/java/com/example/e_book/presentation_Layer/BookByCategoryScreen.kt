@@ -5,6 +5,7 @@ import android.widget.Toast
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.gestures.ScrollableDefaults
+import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -109,7 +110,8 @@ fun BookByCategoryScreen(
                         .padding(horizontal = 20.dp)
                         .clickable {
                             navController.navigate(Home)
-                        }
+                        },
+                    tint = if (isSystemInDarkTheme()) Color.White else Color.Black
                 )
                 Box(
                     modifier = Modifier
@@ -124,6 +126,7 @@ fun BookByCategoryScreen(
                     Text(
                         text = category.category,
                         style = TextStyle(
+                            color = Color.Black,
                             fontSize = 20.sp,
                             fontWeight = FontWeight.Bold
                         )
@@ -182,6 +185,7 @@ fun BookByCategoryScreen(
                                 Text(
                                     text = item.bookName,
                                     style = TextStyle(
+                                        color = Color.Black,
                                         fontSize = 18.sp,
                                         fontWeight = FontWeight.Bold
                                     )
